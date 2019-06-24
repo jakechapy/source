@@ -394,7 +394,7 @@
                     var name = user.username;
                     API.sendChat(subChat(basicBot.chat.winnerpicked, {
                         name: name,
-                        position: pos
+                        position: 1
                     }));
                     setTimeout(function(winner, pos) {
                         basicBot.userUtilities.moveUser(winner, pos, false);
