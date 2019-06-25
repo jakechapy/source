@@ -382,7 +382,10 @@
                     basicBot.room.roulette.countdown = setTimeout(function() {
                         basicBot.room.roulette.endRoulette();
                     }, 60 * 1000);
-                    API.sendChat(basicBot.chat.isopen);
+                    API.sendChat("@djs");
+                    API.sendChat("@djs");
+                    API.sendChat("@djs");
+                    API.sendChat("raffle time type join for a spot at #1");
                 },
                 endRoulette: function() {
                     basicBot.room.roulette.rouletteStatus = false;
