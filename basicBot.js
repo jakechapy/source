@@ -245,7 +245,7 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.3',
+        version: 'boobies 2.0',
         status: false,
         name: 'basicBot',
         loggedInID: null,
@@ -386,6 +386,8 @@
                     API.sendChat("@djs");
                     API.sendChat("@djs");
                     API.sendChat("raffle time type join for a spot at #1");
+                    API.sendChat("raffle time type join for a spot at #1");
+                
                 },
                 endRoulette: function() {
                     basicBot.room.roulette.rouletteStatus = false;
